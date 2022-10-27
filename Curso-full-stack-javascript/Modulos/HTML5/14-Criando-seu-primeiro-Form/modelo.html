@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de liga dos astronautas</title>
+</head>
+<body>
+    <h3>Cadastro de liga dos astronautas</h3>
+    <form action="">
+        <div>
+            <label for="n">Nome:</label>
+            <input type="text" name="n" id="n" required>
+        </div> 
+        <br>
+        <div>
+            <label for="e">Email:</label>
+            <input type="email" name="e" id="e" required>
+            <label for="p"> - Password:</label>
+            <input type="password" name="p" id="p" required>
+        </div> 
+        <br>
+        <div>
+            <label for="d">Data de nascimento:</label>
+            <input type="date" name="d" id="d">
+            <label for="f"> - Foto:</label>
+            <input type="file" src="f" alt="f">
+        </div>
+        <br>
+        <div>
+            <label for="nacionalidade">Nacionalidade:</label>
+            <select id="nacionalidade" name="nacionalidade">
+                <option value="Russa">Russa</option>
+                <option value="Americana">Americana</option>
+                <option value="Brasileira">Brasileira</option>
+            </select>
+            <label for=""> - Genero:</label>
+            <label for="f">F</label>
+            <input type="radio" name="sexo" id="f">
+            <label for="m">M</label>
+            <input type="radio" name="sexo" id="m">
+        </div> 
+        <br>
+        <div>
+            <label for="">Suas principais qualidades:</label> <br>
+            <label for="1">Integência</label>
+            <input type="checkbox" name="1" id="1"> |
+            <label for="2">Resiliência</label>
+            <input type="checkbox" name="2" id="2"> |
+            <label for="3">Preparo físico</label>
+            <input type="checkbox" name="3" id="3"> |
+            <label for="4">Educação</label> 
+            <input type="checkbox" name="4" id="4"> |
+        </div>
+        <br>
+        <div>
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Porque você gostaria de ser um austronauta?"></textarea>
+        </div> 
+        <br> 
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+    </form>
+</body>
+</html>
