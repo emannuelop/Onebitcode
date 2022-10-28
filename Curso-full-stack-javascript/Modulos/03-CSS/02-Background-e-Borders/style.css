@@ -1,0 +1,20 @@
+h1 {
+    color: purple;
+    /*
+    border-color: yellow;
+    border-width: 2px;
+    border-style: dashed;
+    */
+    border: 2px dashed yellow;
+}
+
+li {
+    color: green;
+    
+}
+
+body {
+   background-image: url(https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2021/02/spacex.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
