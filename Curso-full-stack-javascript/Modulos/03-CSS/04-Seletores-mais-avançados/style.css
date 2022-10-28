@@ -1,0 +1,19 @@
+li a {
+    color: red;
+}
+
+li > div > a { /* Filho da div a tag a*/
+    color: orange;
+}
+
+h1 + h4 { /*Todo h4 depois de um h1*/
+    border: 4px dashed;
+}
+
+a[href='/recibo'] {
+    color: black;
+}
+
+li:nth-of-type(2) {
+    color: purple;
+}
