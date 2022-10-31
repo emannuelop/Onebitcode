@@ -9,5 +9,8 @@ p {
 
 h1 {
     font-family: 'Poor Story';
-    margin: 45px 0px 200px 28px;
+    margin: 45px auto 200px auto;
+    width: 15%;
+    border: 2px solid;
+    padding: 10px 20px 20px 10px;
 }
